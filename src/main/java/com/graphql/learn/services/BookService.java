@@ -4,12 +4,12 @@ import com.graphql.learn.entities.Book;
 
 import java.util.List;
 
-public interface BookServices {
+public interface BookService {
     //Create
     Book create(Book book);
 
     //get all
-    List<Book> getALl();
+    List<Book> getAll();
 
     //get single Book
     Book get(int bookId);
